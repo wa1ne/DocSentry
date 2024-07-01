@@ -1,6 +1,6 @@
 import telebot
 import database
-TOKEN = '7015528924:AAGltVqK6xuLxs2Xpx8t3KQOPXiXSMmK6ts'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['add'])
